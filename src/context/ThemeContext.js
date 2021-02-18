@@ -5,7 +5,7 @@ export const ThemeContext = createContext()
 
 function ThemeContextProvider(props){
     const [isLightTheme, setIsLightTheme] = useState(true);
-    const [showProducts, setShowProducts] = useState(false);
+    const [showProducts, setShowProducts] = useState(true);
     const light = { color: '#555',ui:'#ddd', bg: '#eee' }
     const dark = { color: '#ddd',ui:'#333', bg: '#555' }
     
